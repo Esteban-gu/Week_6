@@ -120,24 +120,24 @@ and you may call me V."""
 
 
 # Convert the text to a tuple of characters
-
+Vtuple = (tuple(list(text)))
 
 
 
 # Tuple to store the target characters
 
-
-
+Vstore = Vtuple.count('v')
+Vstore2 = Vtuple.count('V')
 
 
 
 # Count occurrences of 'v' or 'V' by filtering the text_tuple
 
-
+VTotal = (Vstore + Vstore2)
 
 
 # Output the result
-
+print(VTotal)
 
 
 
